@@ -16,17 +16,17 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop 3D visuals, user<br className="sm:block hidden"/> interfaces and web applications.</p>
         </div>
       </div>
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
       
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center item-start p-2">
-            {/* <motion.div animate={{y:[0,24,0]}}
+            <motion.div animate={{y:[0,24,0]}}
             transition={{duration:1.5,repeat:Infinity,repeatType:'loop'}}
             className="w-3 h-3 rounded-full bg-secondary mb-1"
             >
 
-            </motion.div> */}
+            </motion.div>
           </div>
         </a>
       </div>

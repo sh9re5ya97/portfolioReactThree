@@ -24,7 +24,7 @@ const Computers = ({isMobile}) => {
       </spotLight>
       <primitive object={computer.scene}
       scale={isMobile?0.5:0.27}
-      position={isMobile?[0, -3, -2.2]:[0, -1.5, -2.2]}
+      position={isMobile?[0, -3, -2.2]:[0, -1.7, -2.2]}
       rotation={[0, -1.5, 0]}
       />
     </mesh>

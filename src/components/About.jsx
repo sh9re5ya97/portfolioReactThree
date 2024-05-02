@@ -30,7 +30,7 @@ const About = () => {
    <h2 className={styles.sectionHeadText}>Overview</h2>
    </motion.div>
    <motion.p variants={fadeIn(",",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    I'm a skilled software developer with experience in TypeScript and JavaScript,and expertise in Reacy,Node.js and Three.js. I'm a quick learner and collaborate closely with clients to create efficient ,scalable and user-friendly soltions for real-world problems. Let's work together and bring your ideas to life!
+    I'm a skilled software developer with experience in TypeScript and JavaScript,and expertise in Angular and React. I'm a quick learner and collaborate closely with clients to create efficient, scalable and user-friendly soltions for real-world problems. Let's work together and bring your ideas to life!
    </motion.p>
 
     <div className="mt-20 flex flex-wrap gap-10">

@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    cg,
+    cg_nobg
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +44,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Front End Engineering",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Adaptive Web Development",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Creative Interface Design",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Dynamic Animation and Interaction",
       icon: creator,
     },
   ];
@@ -116,57 +118,42 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Associate SDE",
+      company_name: "CG Infinity",
+      icon: cg_nobg,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2022 - October 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+        {name:"Siepe",desc:"Developed and maintained user interfaces, implemented UI/UX designs, and ensured seamless user experiences.Executed thorough testing and debugging processes to optimize performance and promptly address any issues that arose.Led the Proof of Concept (POC) for label mapping using fabricjs, resulting in improved efficiency."},
+        {name:"Gas South",desc:"Contributed to the migration and integration of Salesforce into the Energy and Utility Cloud, focusing on smooth data transition and collaborative efforts for improved operational efficiency. Responsible for the creation and management of user roles and permissions, prioritizing a secure and user-friendly experience."},
+      ]
+      },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Consultant 2 SDE",
+      company_name: "CG Infinity",
+      icon: cg_nobg,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2021 - April 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        {name:"AMOS",desc:"Enhanced and supported the admin portal, conducted mobile app testing, and performed bug fixes.Contributed to database architecture, backend development (APIs, etc.), and Azure deployment."},
+        {name:"Brinks Security",desc:"Automated processes and utilized SPs, SQL, C#, .NET, Vue Nuxt, Contentful, and Azure."},
+        {name:"Orthofix",desc:"Developed a Vue portal from scratch and utilized PowerBI for reports, roles, and embedded reports."}
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Consultant 1 SDE",
+      company_name: "CG Infinity",
+      icon: cg_nobg,
+      iconBg: "#383E56",
+      date: "June 2019 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        {name:"BDF",desc:"Conducted front-end development of new features and bug fixes using Angular 6."},
+        {name:"Dell Insight",desc:"Provided front-end development and support in Angular 6."},
+        {name:"Associa",desc:"Engaged in C# and .NET development, REST API development, and maintenance."},
+        {name:"Smart Track DNA",desc:"Developed an admin portal from scratch using Angular 8 and provided ongoing support."},
+        {name:"Just Energy",desc:"Utilized .NET C#, SOAP API, and database queries for development tasks"},
       ],
-    },
+    }
   ];
   
   const testimonials = [

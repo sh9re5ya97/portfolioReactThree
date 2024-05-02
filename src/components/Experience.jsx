@@ -22,7 +22,7 @@ icon={<div className="flex justify-center items-center w-full h-full">
 </div>
 <ul className="mt-5 list-disc ml-5 space-y-2">
   {experience.points.map((point,index)=>(
-    <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider">{point}</li>
+    <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider"><span className="font-bold">{point.name}</span>: <span>{point.desc}</span></li>
   ))}
 </ul>
 </VerticalTimelineElement>
